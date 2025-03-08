@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage('mbp'){
             steps{
-                echo '*** Dev MBP ****'
+                echo '*** Test MBP ****'
             }
         }
     }
