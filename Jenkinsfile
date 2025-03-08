@@ -5,6 +5,7 @@ pipeline{
     stages{
         stage('mbp'){
             steps{
+                echo 'added'
                 echo '*** PROD MBP ****'
             }
         }
